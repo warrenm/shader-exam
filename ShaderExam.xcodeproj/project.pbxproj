@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		832DB8CB201AD429008423A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832DB8CA201AD429008423A4 /* AppDelegate.swift */; };
+		832DB8CD201AD429008423A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832DB8CC201AD429008423A4 /* ViewController.swift */; };
+		832DB8CF201AD429008423A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 832DB8CE201AD429008423A4 /* Assets.xcassets */; };
+		832DB8D2201AD429008423A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 832DB8D0201AD429008423A4 /* Main.storyboard */; };
+		832DB8DB201AD4F9008423A4 /* pikachu in Resources */ = {isa = PBXBuildFile; fileRef = 832DB8DA201AD4F8008423A4 /* pikachu */; };
+		832DB8DD201ADD3C008423A4 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 832DB8DC201ADD3C008423A4 /* Shaders.metal */; };
+		832DB8DF201AE1C9008423A4 /* MathUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832DB8DE201AE1C9008423A4 /* MathUtilities.swift */; };
+		832DB8E1201AE1E1008423A4 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832DB8E0201AE1E1008423A4 /* Renderer.swift */; };
+		832DB8E3201E7A41008423A4 /* QuadShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 832DB8E2201E7A41008423A4 /* QuadShaders.metal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		832DB8C7201AD429008423A4 /* ShaderExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShaderExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		832DB8CA201AD429008423A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		832DB8CC201AD429008423A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		832DB8CE201AD429008423A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		832DB8D1201AD429008423A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		832DB8D3201AD429008423A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		832DB8D4201AD429008423A4 /* ShaderExam.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShaderExam.entitlements; sourceTree = "<group>"; };
+		832DB8DA201AD4F8008423A4 /* pikachu */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pikachu; sourceTree = "<group>"; };
+		832DB8DC201ADD3C008423A4 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		832DB8DE201AE1C9008423A4 /* MathUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathUtilities.swift; sourceTree = "<group>"; };
+		832DB8E0201AE1E1008423A4 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		832DB8E2201E7A41008423A4 /* QuadShaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = QuadShaders.metal; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		832DB8C4201AD429008423A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		832DB8BE201AD429008423A4 = {
+			isa = PBXGroup;
+			children = (
+				832DB8C9201AD429008423A4 /* ShaderExam */,
+				832DB8C8201AD429008423A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		832DB8C8201AD429008423A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				832DB8C7201AD429008423A4 /* ShaderExam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		832DB8C9201AD429008423A4 /* ShaderExam */ = {
+			isa = PBXGroup;
+			children = (
+				832DB8CA201AD429008423A4 /* AppDelegate.swift */,
+				832DB8CC201AD429008423A4 /* ViewController.swift */,
+				832DB8E0201AE1E1008423A4 /* Renderer.swift */,
+				832DB8DE201AE1C9008423A4 /* MathUtilities.swift */,
+				832DB8DC201ADD3C008423A4 /* Shaders.metal */,
+				832DB8E2201E7A41008423A4 /* QuadShaders.metal */,
+				832DB8DA201AD4F8008423A4 /* pikachu */,
+				832DB8CE201AD429008423A4 /* Assets.xcassets */,
+				832DB8D0201AD429008423A4 /* Main.storyboard */,
+				832DB8D3201AD429008423A4 /* Info.plist */,
+				832DB8D4201AD429008423A4 /* ShaderExam.entitlements */,
+			);
+			path = ShaderExam;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		832DB8C6201AD429008423A4 /* ShaderExam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 832DB8D7201AD429008423A4 /* Build configuration list for PBXNativeTarget "ShaderExam" */;
+			buildPhases = (
+				832DB8C3201AD429008423A4 /* Sources */,
+				832DB8C4201AD429008423A4 /* Frameworks */,
+				832DB8C5201AD429008423A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShaderExam;
+			productName = ShaderExam;
+			productReference = 832DB8C7201AD429008423A4 /* ShaderExam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		832DB8BF201AD429008423A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Warren Moore";
+				TargetAttributes = {
+					832DB8C6201AD429008423A4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 832DB8C2201AD429008423A4 /* Build configuration list for PBXProject "ShaderExam" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 832DB8BE201AD429008423A4;
+			productRefGroup = 832DB8C8201AD429008423A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				832DB8C6201AD429008423A4 /* ShaderExam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		832DB8C5201AD429008423A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832DB8DB201AD4F9008423A4 /* pikachu in Resources */,
+				832DB8CF201AD429008423A4 /* Assets.xcassets in Resources */,
+				832DB8D2201AD429008423A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		832DB8C3201AD429008423A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832DB8DF201AE1C9008423A4 /* MathUtilities.swift in Sources */,
+				832DB8DD201ADD3C008423A4 /* Shaders.metal in Sources */,
+				832DB8CD201AD429008423A4 /* ViewController.swift in Sources */,
+				832DB8E3201E7A41008423A4 /* QuadShaders.metal in Sources */,
+				832DB8E1201AE1E1008423A4 /* Renderer.swift in Sources */,
+				832DB8CB201AD429008423A4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		832DB8D0201AD429008423A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				832DB8D1201AD429008423A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		832DB8D5201AD429008423A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		832DB8D6201AD429008423A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		832DB8D8201AD429008423A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ShaderExam/ShaderExam.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = M4KB9BV65V;
+				INFOPLIST_FILE = ShaderExam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.metalbyexample.ShaderExam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		832DB8D9201AD429008423A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ShaderExam/ShaderExam.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = M4KB9BV65V;
+				INFOPLIST_FILE = ShaderExam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.metalbyexample.ShaderExam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		832DB8C2201AD429008423A4 /* Build configuration list for PBXProject "ShaderExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				832DB8D5201AD429008423A4 /* Debug */,
+				832DB8D6201AD429008423A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		832DB8D7201AD429008423A4 /* Build configuration list for PBXNativeTarget "ShaderExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				832DB8D8201AD429008423A4 /* Debug */,
+				832DB8D9201AD429008423A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 832DB8BF201AD429008423A4 /* Project object */;
+}
