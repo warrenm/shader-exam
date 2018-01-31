@@ -38,9 +38,9 @@ class Renderer: NSObject, MTKViewDelegate {
         }
 
         guard let projectDir_ = ProcessInfo.processInfo.environment["PROJECT_DIR"] else {
-            fatalError("PROJECT_DIR environment variable not passed at runtime, please make sure Scheme contains it")
+            fatalError("PROJECT_DIR environment variable not passed at runtime; please make sure scheme contains it")
         }
-        projectDir = projectDir_
+        projectDir = (projectDir_ as NSString).expandingTildeInPath
 
         let mdlVertexDescriptor = MDLVertexDescriptor()
         mdlVertexDescriptor.attributes[0] = MDLVertexAttribute(name: MDLVertexAttributePosition, format: MDLVertexFormat.float3, offset: 0, bufferIndex: 0)
@@ -201,7 +201,7 @@ class Renderer: NSObject, MTKViewDelegate {
         guard let shaderStringNew = try?
             String(contentsOfFile: shadersPath) + "\n" +
             String(contentsOfFile: quadShadersPath) else {
-            print("Could not read Metal shader file")
+            print("Could not read Metal shader file; verify that your PROJECT_DIR environment variable (currently set to \(projectDir)) contains the ShaderExam directory")
             return false
         }
 
