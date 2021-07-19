@@ -2,6 +2,9 @@
 import Foundation
 import simd
 
+typealias float3 = SIMD3<Float>
+typealias float4 = SIMD4<Float>
+
 extension float4x4 {
     init(scaleBy s: Float) {
         self.init(float4(s, 0, 0, 0),
